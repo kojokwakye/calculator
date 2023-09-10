@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(189, 178, 178);
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; */
+}
+
+button {
+  font-size: 100px;
+  margin: 10px;
+}
+
+#screen {
+  background-color: #fff;
+  margin: 10px;
+  font-size: 50px;
+  height: 100px;
+  width: 300px;
+}
