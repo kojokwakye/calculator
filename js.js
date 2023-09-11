@@ -1,24 +1,12 @@
-const screen = document.getElementById("screen");
-const btns = document.querySelectorAll(".digits, .operator-btn");
+const input = document.getElementById("screen");
+const numberBtns = document.querySelectorAll(".digits");
+const operatorBtns = document.querySelectorAll(".operator-btn");
+const dotBtn = document.querySelector(".dot");
+const ac = document.getElementById("clear-screen"); // clear btn
 
-const markBtn = (btn) => {
-  console.log(btn);
-};
-
-btns.forEach((btn) =>
-  btn.addEventListener("click", () =>
-    markBtn((screen.textContent = btn.textContent))
-  )
-);
-
-let displayValue = "";
-
-// clear btn
-const ac = document.getElementById("clear-screen");
-ac.addEventListener("click", clearDisplay);
-function clearDisplay() {
-  screen.textContent = "";
-}
+// display operation
+// let displayCurrent = document.querySelector("#current");
+// let displayPrevious = document.querySelector("#previous");
 
 // functions for each operation
 function add(a, b) {
@@ -59,4 +47,4 @@ function operate(a, operator, b) {
 
   return result;
 }
-console.log(operate(5, "*", 3));
+console.log(operate(5, "+", 3));

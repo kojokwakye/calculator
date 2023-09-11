@@ -25,3 +25,12 @@ button {
   height: 100px;
   width: 300px;
 }
+
+#previous {
+  background-color: blue;
+  height: 50px;
+}
+#current {
+  background-color: rgb(16, 138, 65);
+  height: 50px;
+}
