@@ -5,25 +5,35 @@
 }
 
 body {
-  background-color: rgb(189, 178, 178);
+  background: black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   text-wrap: wrap;
 }
+
+.title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #fff;
+  border-bottom: 2px solid #5c8cc87d;
+}
+
 .main {
-  outline: 1px solid black;
+  outline: 1px solid #5c8cc87d;
+  border-radius: 10px;
   padding: 20px;
 }
+
 .middle {
   display: flex;
   justify-content: space-around;
 }
 button {
-  background-color: #4caf50; /* Green */
+  background-color: black;
   border: none;
-  border-radius: 20px;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -32,6 +42,7 @@ button {
   font-size: 16px;
   margin: 10px 5px;
   cursor: pointer;
+  font-weight: bolder;
 }
 
 #buttons {
@@ -39,29 +50,32 @@ button {
   align-items: center;
   flex-direction: column;
   margin: 5px;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 
 .operator-btn {
-  background-color: rgb(6, 7, 4);
+  background-color: #5c8cc87d;
 }
 
 button#equal {
-  background-color: #331919;
+  background-color: #5c8cc87d;
   width: 169px;
+  /* font-size: 17px; */
 }
 
 #screen {
-  width: 360px;
+  width: 350px;
   word-wrap: break-word;
+  font-weight: bolder;
 }
 
 #previous {
-  background-color: blue;
+  background-color: #5c8cc87d;
 }
-#current {
-  background-color: rgb(16, 138, 65);
-}
+
+/* #current {
+  background-color: #4caf50;
+} */
 
 .mini-screen {
   color: white;
@@ -69,4 +83,5 @@ button#equal {
   padding: 15px 30px;
   height: 80px;
   margin: 2px;
+  border: none;
 }
