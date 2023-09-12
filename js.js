@@ -4,6 +4,7 @@ const operatorBtns = document.querySelectorAll(".operator-btn");
 const dotBtn = document.querySelector(".dot"); // point
 const solve = document.getElementById("equal"); // equal to
 const ac = document.getElementById("clear-screen"); // clear btn
+const deleteNumber = document.getElementById("delete");
 
 // display operation
 let displayCurrent = document.querySelector("#current"); // green screen
@@ -38,6 +39,12 @@ operatorBtns.forEach((btn) => {
     operator = event.target.textContent;
     waitForSecondOperand = true; // clear the current input and start a new input for the second operand.
   });
+});
+// delete last number
+deleteNumber.addEventListener("click", () => {
+  let currentText = displayCurrent.textContent;
+  currentText = currentText.slice(0, -1); // remove the last character
+  displayCurrent.textContent = currentText;
 });
 
 // clear both screens
@@ -90,14 +97,16 @@ function operate() {
       break;
     case "/":
       if (b === "0") {
-        result = "Error: Division by zero";
+        result = "error";
       } else {
-        result = divide(a, b);
+        Math.round((result = divide(a, b)));
       }
       break;
     default:
       result = "Invalid operator";
   }
+  // round up numbers
+  result = parseFloat(parseFloat(result).toFixed(3)); // rounded value as a floating-point number
 
   displayPrevious.textContent = `${a} ${operator} ${b} =`;
   displayCurrent.textContent = result;
