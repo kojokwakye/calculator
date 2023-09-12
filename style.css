@@ -50,7 +50,6 @@ button {
   align-items: center;
   flex-direction: column;
   margin: 5px;
-  /* outline: 1px solid black; */
 }
 
 .operator-btn {
@@ -60,7 +59,6 @@ button {
 button#equal {
   background-color: #5c8cc87d;
   width: 169px;
-  /* font-size: 17px; */
 }
 
 #screen {
@@ -72,10 +70,6 @@ button#equal {
 #previous {
   background-color: #5c8cc87d;
 }
-
-/* #current {
-  background-color: #4caf50;
-} */
 
 .mini-screen {
   color: white;
