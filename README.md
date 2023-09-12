@@ -1,16 +1,16 @@
 # [calculator](kojokwakye.github.io/calculator)
 
-A basic calculator on the web. It was built for the odin project
+a basic calculator on the web. It was built for the odin project
 
 ![Calculator Demo](/Screenshot.png)
 
 ## features
 
-- Addition, subtraction, multiplication, and division.
-- Clear and delete functionality.
+- addition, subtraction, multiplication, and division.
+- clear and delete functionality.
 
 ## usage
 
-- Click numbers and operators to perform calculations.
-- Use "Clear" to reset the screen.
-- Use "Delete" to remove the last characte## Usage
+- click numbers and operators to perform calculations.
+- use "clear" to reset the screen.
+- use "delete" to remove the last character
