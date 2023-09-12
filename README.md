@@ -14,5 +14,5 @@ a basic calculator on the web. It was built for the odin project
 - use "delete" to remove the last character
 
 <p align='center'>
-<img src='Screenshot..png' width= '320' height='320'>
+<img src='images/Screenshot..png' width= '320' height='320'>
 </p>
