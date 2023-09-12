@@ -2,8 +2,6 @@
 
 a basic calculator on the web. It was built for the odin project
 
-![Calculator Demo](/Screenshot.png)
-
 ## features
 
 - addition, subtraction, multiplication, and division.
@@ -14,3 +12,7 @@ a basic calculator on the web. It was built for the odin project
 - click numbers and operators to perform calculations.
 - use "clear" to reset the screen.
 - use "delete" to remove the last character
+
+<p align='center'>
+<img src='Screenshot..png' width= '320' height='320'>
+</p>
