@@ -5,9 +5,20 @@ const dotBtn = document.querySelector(".dot");
 const ac = document.getElementById("clear-screen"); // clear btn
 
 // display operation
-// let displayCurrent = document.querySelector("#current");
-// let displayPrevious = document.querySelector("#previous");
+let displayCurrent = document.querySelector("#current");
+let displayPrevious = document.querySelector("#previous");
 
+numberBtns.forEach((btn) => {
+  btn.addEventListener("click", (event) => {
+    displayCurrent.textContent += event.target.textContent;
+  });
+});
+
+operatorBtns.forEach((btn) => {
+  btn.addEventListener("click", (event) => {
+    displayCurrent.textContent += event.target.textContent;
+  });
+});
 // functions for each operation
 function add(a, b) {
   return a + b;
@@ -47,4 +58,3 @@ function operate(a, operator, b) {
 
   return result;
 }
-console.log(operate(5, "+", 3));
