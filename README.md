@@ -2,6 +2,8 @@
 
 A basic calculator on the web. It was built for the odin project
 
+![Calculator Demo](/Screenshot.png)
+
 ## features
 
 - Addition, subtraction, multiplication, and division.
