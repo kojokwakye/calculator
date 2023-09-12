@@ -7,8 +7,8 @@ const ac = document.getElementById("clear-screen"); // clear btn
 const deleteNumber = document.getElementById("delete");
 
 // display operation
-let displayCurrent = document.querySelector("#current"); // green screen
-let displayPrevious = document.querySelector("#previous"); // blue screen
+let displayCurrent = document.querySelector("#current"); // first screen
+let displayPrevious = document.querySelector("#previous"); // second screen
 
 // store operands
 let a = ""; // store the first operand
