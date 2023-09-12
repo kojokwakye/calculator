@@ -1,4 +1,4 @@
-# [calculator](kojokwakye.github.io/calculator)
+# [calculator](https://kojokwakye.github.io/calculator/)
 
 a basic calculator on the web. It was built for the odin project
 
