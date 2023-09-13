@@ -36,18 +36,18 @@ body {
   justify-content: space-around;
 }
 button {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 17px;
   background-color: black;
   border: none;
   color: white;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 17px;
   margin: 10px 5px;
+  padding: 15px 32px;
   cursor: pointer;
-  font-family: Digital7Mono-Yz9J4;
-  font-weight: normal;
 }
 button:hover {
   background-color: #10202efc;
@@ -80,15 +80,13 @@ button#equal {
 }
 
 .mini-screen {
-  color: white;
-
-  padding: 15px 30px;
-  height: 80px;
-  margin: 2px;
-  border: none;
   font-family: Digital7Mono-Yz9J4;
   font-size: 20px;
-  padding: 30px 13px;
+  border: none;
+  color: white;
+  height: 80px;
+  margin: 2px;
+  padding: 15px 30px;
 }
 
 @media only screen and (max-device-width: 700px) {
