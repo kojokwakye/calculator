@@ -13,6 +13,6 @@ a basic calculator on the web. It was built for the odin project
 - use "clear" to reset the screen.
 - use "delete" to remove the last character
 
-<p align='center'>
-<img src='images/Screenshot..png' width= '320' height='320'>
+<p>
+<img src='images/127.0.0.1_5500_.png' width= '420' height='420'>
 </p>
