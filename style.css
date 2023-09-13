@@ -18,7 +18,7 @@ body {
   margin-bottom: 20px;
   font-size: 30px;
   color: #fff;
-  border-bottom: 2px solid #5c8cc87d;
+  border-bottom: 2px solid white;
 }
 
 .main {
@@ -66,7 +66,10 @@ button#equal {
   word-wrap: break-word;
   font-weight: bolder;
 }
-
+#current {
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
 #previous {
   background-color: #5c8cc87d;
 }
@@ -78,4 +81,41 @@ button#equal {
   height: 80px;
   margin: 2px;
   border: none;
+}
+
+@media only screen and (max-device-width: 700px) {
+  /* * {
+     outline: 1px solid red; 
+  }   */
+  body {
+    width: 100vw;
+    min-height: 80vh;
+  }
+  .title {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .main {
+    outline: none;
+    padding: 0;
+    width: 350px;
+  }
+  #buttons {
+    display: block;
+    margin: 0;
+  }
+  button {
+    padding: 10px 35px;
+    margin: 5px 2px;
+    font-weight: normal;
+  }
+  #buttons {
+    margin: 0;
+  }
+  .row {
+    height: 60px;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+  }
 }
