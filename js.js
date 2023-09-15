@@ -35,7 +35,6 @@ operatorBtns.forEach((btn) => {
     } else {
       a = displayCurrent.textContent;
     }
-
     operator = event.target.textContent;
     waitForSecondOperand = true; // clear the current input and start a new input for the second operand.
   });
@@ -106,8 +105,8 @@ function operate() {
       result = "Invalid operator";
   }
   // round up numbers
-  result = parseFloat(parseFloat(result).toFixed(3)); // rounded value as a floating-point number
+  result = parseFloat(parseFloat(result).toFixed(3)); // rounded value
 
-  displayPrevious.textContent = `${a} ${operator} ${b} =`;
-  displayCurrent.textContent = result;
+  displayPrevious.textContent = `${a} ${operator} ${b} = `;
+  displayCurrent.textContent = `${result}`;
 }
