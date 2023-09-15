@@ -1,7 +1,5 @@
-const input = document.getElementById("screen"); // main screen
 const numberBtns = document.querySelectorAll(".digits");
 const operatorBtns = document.querySelectorAll(".operator-btn");
-const dotBtn = document.querySelector(".dot"); // point
 const solve = document.getElementById("equal"); // equal to
 const ac = document.getElementById("clear-screen"); // clear btn
 const deleteNumber = document.getElementById("delete");
