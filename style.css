@@ -9,61 +9,69 @@
 }
 
 body {
+  height: 100vh;
   background: #10202efc;
+  font-family: Digital7Mono-Yz9J4;
   display: flex;
+  /* width: 440px; */
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-wrap: wrap;
-  font-family: Digital7Mono-Yz9J4;
+  align-content: center;
 }
 
 .title {
   margin-bottom: 20px;
   font-size: 30px;
   color: #fff;
-  border-bottom: 2px solid white;
+  text-align: center;
+  /* border-bottom: 2px solid white; */
 }
 
 .main {
   outline: 2px solid #188266;
-  padding: 20px;
 }
 
-.middle {
-  display: flex;
-  justify-content: space-around;
-}
 button {
   font-family: inherit;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 17px;
   background-color: black;
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   margin: 10px 5px;
-  padding: 15px 32px;
   cursor: pointer;
+}
+
+#buttons {
+  width: 350px;
+  /* outline: 1px solid red; */
 }
 button:hover {
   background-color: #10202efc;
 }
-#buttons {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 5px;
+.row.middle {
+  display: grid;
+  grid-template-columns: 150px 121px 79px;
+  grid-template-rows: 66px;
+  /* justify-content: space-between; */
 }
-.operator-btn {
-  background-color: #188266;
+.row {
+  display: grid;
+  grid-template-columns: 91px 90px 90px 79px;
+  grid-template-rows: 70px;
 }
+.row.rw4 {
+  display: grid;
+  grid-template-columns: 150px 90px 110px;
+  /* grid-template-rows: 70px; */
+}
+
+.operator-btn,
 button#equal {
   background-color: #188266;
-  width: 169px;
 }
 
 #screen {
@@ -87,41 +95,4 @@ button#equal {
   height: 80px;
   margin: 2px;
   padding: 15px 30px;
-}
-
-@media only screen and (max-device-width: 700px) {
-  /* * {
-     outline: 1px solid red; 
-  }   */
-  body {
-    width: 100vw;
-    min-height: 80vh;
-  }
-  .title {
-    margin-bottom: 15px;
-    font-size: 20px;
-  }
-  .main {
-    outline: none;
-    padding: 0;
-    width: 350px;
-  }
-  #buttons {
-    display: block;
-    margin: 0;
-  }
-  button {
-    padding: 10px 35px;
-    margin: 5px 2px;
-    font-weight: normal;
-  }
-  #buttons {
-    margin: 0;
-  }
-  .row {
-    height: 60px;
-    display: flex;
-    width: 350px;
-    justify-content: space-between;
-  }
 }
