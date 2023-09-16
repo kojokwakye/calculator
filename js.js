@@ -89,7 +89,7 @@ function operate() {
     case "-":
       result = subtract(a, b);
       break;
-    case "*":
+    case "X":
       result = multiply(a, b);
       break;
     case "/":
