@@ -13,7 +13,6 @@ body {
   background: #10202efc;
   font-family: Digital7Mono-Yz9J4;
   display: flex;
-  /* width: 440px; */
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +24,6 @@ body {
   font-size: 30px;
   color: #fff;
   text-align: center;
-  /* border-bottom: 2px solid white; */
 }
 
 .main {
@@ -47,7 +45,6 @@ button {
 
 #buttons {
   width: 350px;
-  /* outline: 1px solid red; */
 }
 button:hover {
   background-color: #10202efc;
@@ -56,7 +53,6 @@ button:hover {
   display: grid;
   grid-template-columns: 150px 121px 79px;
   grid-template-rows: 66px;
-  /* justify-content: space-between; */
 }
 .row {
   display: grid;
@@ -66,7 +62,6 @@ button:hover {
 .row.rw4 {
   display: grid;
   grid-template-columns: 150px 90px 110px;
-  /* grid-template-rows: 70px; */
 }
 
 .operator-btn,
