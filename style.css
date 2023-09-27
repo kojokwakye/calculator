@@ -45,29 +45,28 @@ button {
   color: white;
   text-align: center;
   text-decoration: none;
-  margin: 10px 5px;
+  margin: 5px;
   cursor: pointer;
 }
 
 #buttons {
-  width: 350px;
+  /* width: 350px; */
 }
 button:hover {
   background-color: #10202efc;
 }
 .row.middle {
   display: grid;
-  grid-template-columns: 150px 121px 79px;
-  grid-template-rows: 66px;
+  grid-template-columns: 180px 90px 80px;
+  grid-template-rows: 65px;
 }
 .row {
   display: grid;
-  grid-template-columns: 91px 90px 90px 79px;
-  grid-template-rows: 70px;
+  grid-template-columns: 90px 90px 90px 80px;
+  grid-template-rows: 65px;
 }
 .row.rw4 {
-  display: grid;
-  grid-template-columns: 150px 90px 110px;
+  grid-template-columns: 90px 90px 170px;
 }
 
 .operator-btn,
@@ -82,7 +81,7 @@ button#equal {
 }
 #current {
   border-bottom: 1px solid white;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
 }
 #previous {
   background-color: #188266;
