@@ -103,7 +103,7 @@ function operate() {
       result = "Invalid operator";
   }
   // round up numbers
-  result = parseFloat(parseFloat(result).toFixed(3)); // rounded value
+  result = parseFloat(parseFloat(result).toFixed(3)); // round value
 
   displayPrevious.textContent = `${a} ${operator} ${b} = `;
   displayCurrent.textContent = `${result}`;
