@@ -1,6 +1,6 @@
 # [calculator](https://kojokwakye.github.io/calculator/)
 
-a basic calculator on the web. It was built for the odin project
+a basic calculator on the web. it was built for the odin project
 
 ## features
 
@@ -14,5 +14,5 @@ a basic calculator on the web. It was built for the odin project
 - use "delete" to remove the last character
 
 <p>
-<img src='images/127.0.0.1_5500_index.html.png'width= '420' height='420' >
+<img src='images/127.0.0.1_5500_index.html.png' width= '420' height='420' >
 </p>
